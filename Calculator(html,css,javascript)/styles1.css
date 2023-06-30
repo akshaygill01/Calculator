@@ -1,0 +1,58 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    background-color:azure;
+    
+}
+.title-text{
+    text-align: center;
+}
+.container{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+   
+
+}
+.input-box input {
+    width: 195px;
+    height: 60px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 25px;
+    
+}
+
+
+button{
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius:7px;
+    padding:20px;
+    cursor:pointer;
+    margin:7px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    
+}
+
+button:hover{
+    font-size:16px ;
+}
+.input-box button{
+    font-size: 30px;
+    padding-top:5px;
+    padding-bottom:5px;
+    
+    padding-left: 15px;
+    padding-right:15px;
+}
+
+.operator{
+    background-color:gainsboro;
+}
+#equal{
+    background-color: deepskyblue;
+}
